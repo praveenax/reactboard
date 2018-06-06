@@ -9,33 +9,35 @@ button.cardstyle {
 }
 
 button.cardstyle-1 {
-    background-image: url(https://cdn.pixabay.com/photo/2016/12/01/20/18/blur-1876100_960_720.jpg);
+    
+    background-image: url(../img/1.jpg);
 }
 
 
 button.cardstyle-2 {
-    background-image: url(https://cdn.pixabay.com/photo/2018/05/31/13/13/rain-3443977_960_720.jpg);
+    background-image: url(../img/2.png);
 }
 
 
 button.cardstyle-3 {
-    background-image: url(https://cdn.pixabay.com/photo/2017/06/15/17/31/background-2406119_960_720.jpg);
+    background-image: url(../img/3.jpg);
 }
 
 
 button.cardstyle-4 {
-    background-image: url(https://cdn.pixabay.com/photo/2017/08/19/17/19/texture-2659241_960_720.jpg);
+    background-image: url(../img/4.jpg);
 }
 
 
 button.cardstyle-5 {
-    background-image: url(https://cdn.pixabay.com/photo/2016/12/01/20/18/blur-1876100_960_720.jpg);
+    background-image: url(../img/5.jpg);
 }
 
 .costrow {
     position: absolute;
-    bottom: 10px;
-    margin-left: 0px;
+    bottom: 4px;
+/*    margin-left: 0px;*/
+        margin-left: -6px;
 }
 
 button.gembtn {
@@ -45,31 +47,31 @@ button.gembtn {
     font-weight: 600;
 }
 
-button.red-gem {
+.red-gem {
     background: #e74c3c;
 }
 
-button.violet-gem {
+.violet-gem {
     background: #8e44ad;
 }
 
-button.blue-gem {
+.blue-gem {
     background: #2980b9;
 }
 
-button.green-gem {
+.green-gem {
     background: #16a085;
 }
 
-button.black-gem {
+.black-gem {
     background: #2d3436;
 }
 
 div.costGem {
 /*    background: #e74c3c;*/
     height: 40px;
-    margin: 4px;
-    border-radius: 40px;
+/*    margin: 4px;*/
+/*    border-radius: 40px;*/
 /*    min-width: 40px !important;*/
     padding-top: 4%;
     color: #fff;
